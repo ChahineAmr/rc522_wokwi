@@ -1,0 +1,20 @@
+{
+  "name": "RC522 RFID",
+  "tag": "rc522-sim",
+  "description": "Simulation du capteur RFID RC522 via SPI",
+  "author": "Ton Nom",
+  "icon": "chip",
+  "behavior": {
+    "custom": "custom.js"
+  },
+  "connections": [
+    { "name": "GND", "type": "power" },
+    { "name": "VCC", "type": "power" },
+    { "name": "SDA", "type": "signal" },
+    { "name": "SCK", "type": "signal" },
+    { "name": "MOSI", "type": "signal" },
+    { "name": "MISO", "type": "signal" },
+    { "name": "IRQ", "type": "signal" },
+    { "name": "RST", "type": "signal" }
+  ]
+}
